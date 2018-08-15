@@ -1,0 +1,52 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }}
+      {% if page.section %} - {{ page.section }}{% endif %}
+       - 
+    {% endif %}
+    {{ site.title }}
+  </title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" href="{{ site.url }}/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/img/apple-touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/img/apple-touch-icon@2x.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/img/apple-touch-icon-ipad@2x.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/img/apple-touch-icon@3x.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+  
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
+  <meta property="og:image" content="{{ site.url }}/img/og-image.jpg" />
+  <meta property="og:description" content="{{ site.description }}" /> 
+  <meta property="og:url" content="{% if page.url %}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:site" content="@shoutem" />
+  <meta name="twitter:image" content="{{ site.url }}/img/twitter-card-image.png" />
+
+  <!-- Hotjar Tracking Code for http://shoutem.com -->
+  <script>
+    (function(h,o,t,j,a,r){
+       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+       h._hjSettings={hjid:211696,hjsv:5};
+       a=o.getElementsByTagName('head')[0];
+       r=o.createElement('script');r.async=1;
+       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+       a.appendChild(r);
+   })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+  <script src="https://cdn.optimizely.com/js/8386530091.js"></script>
+  

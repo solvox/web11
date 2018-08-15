@@ -1,0 +1,44 @@
+title: Shoutem Developers
+description: Supercharge your React Native development with Shoutem
+tracking_id: UA-807293-5
+# repository: solvox.github.io/Web-101
+
+sass:
+  style: compressed
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
+# url: "https://solvox.github.io/Web-101/"
+
+# Variables
+shoutem:
+  builderURL: "https://builder.shoutem.com"
+  previewAppiOS: "https://itunes.apple.com/us/app/shoutem-preview/id1211732978"
+  previewAppAndroid: "https://play.google.com/store/apps/details?id=com.shoutem.extensions.preview"
+  cli: "https://www.npmjs.com/package/@shoutem/cli"
+  school: "http://school.shoutem.com/"
+  pricing: "https://new.shoutem.com/pricing/"
+  support: "https://new.shoutem.com/support/"
+
+external:
+  appleAppStore: "https://itunes.apple.com/ca/genre/ios/id36?mt=8"
+  appleDeveloperAccount: "https://developer.apple.com/programs/enroll/"
+  googlePlayStore: "https://play.google.com/store"
+  googlePlayDeveloperAccount: "https://play.google.com/apps/publish/signup/"
+  xcode: "https://developer.apple.com/xcode/"
+  androidStudio: "https://developer.android.com/studio/index.html"
+
+
+
+# Examples
+example:
+  devName: tom
+  devEmail: tom@shoutem.com
+  extensionName: restaurants
+  appId: 8074
+  qrCodeLink: http://shoutem.app.link/?host=df4d8960.ngrok.io&port=80&dev=false
